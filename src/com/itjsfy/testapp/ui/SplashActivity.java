@@ -1,18 +1,17 @@
 package com.itjsfy.testapp.ui;
 
-import com.itjsfy.testapp.R;
-import com.itjsfy.testapp.R.layout;
-import com.itjsfy.testapp.util.PreferenceConstants;
-import com.itjsfy.testapp.util.PreferenceUtils;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.itjsfy.testapp.R;
+import com.itjsfy.testapp.util.PreferenceConstants;
+import com.itjsfy.testapp.util.PreferenceUtils;
+
 public class SplashActivity extends Activity
 {
-	private static final int SHOW_TIME = 3000;// 最小显示时间
+	private static final int SHOW_TIME = 3000;// 显示时间
 	public Handler handler;
 	@Override
 	protected void onCreate(Bundle savedInstanceState)

@@ -32,7 +32,6 @@
                 android:layout_margin="5dp"
                 android:background="@drawable/ic_user" />
 
-
             <EditText
                 android:id="@+id/et_userName"
                 android:layout_width="fill_parent"
@@ -40,7 +39,6 @@
                 android:layout_marginLeft="10dp"
                 android:layout_toRightOf="@id/iv_username"
                 android:background="@null"
-                android:digits="@string/phone_text"
                 android:ems="10"
                 android:hint="@string/user_name"
                 android:singleLine="true" >
@@ -82,4 +80,26 @@
             </EditText>
         </RelativeLayout>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/layout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#FDA623"
+        android:text="登录"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_login"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="忘记密码？"
+        android:textSize="16sp" />
+
 </RelativeLayout>
