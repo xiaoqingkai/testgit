@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="user_name">用户名</string>
+    <string name="user_psd">密码</string>
+    <string name="phone_text">1234567890</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+</resources>
