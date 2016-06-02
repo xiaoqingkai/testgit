@@ -2,4 +2,5 @@
 <resources>
     <dimen name="image_head4">25dp</dimen>
     <dimen name="edittext_height">40dp</dimen>
+    <dimen name="h4">13sp</dimen>
 </resources>

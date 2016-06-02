@@ -36,16 +36,11 @@ public class LoginActivity extends Activity implements OnClickListener
 		{
 			Toast.makeText(getApplicationContext(), "用户名或密码不能为空", Toast.LENGTH_SHORT).show();
 		}else {
-			if (name.equals("test")&&password.equals("123"))
-			{
-				PreferenceUtils.setPrefString(getApplicationContext(), PreferenceConstants.USER_NAME, name);
-				PreferenceUtils.setPrefString(getApplicationContext(), PreferenceConstants.USER_PSD, password);
-				Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
-				startActivity(intent);
-				finish();
-			}else {
-				Toast.makeText(getApplicationContext(), "用户名或密码错误", Toast.LENGTH_SHORT).show();
-			}
+			PreferenceUtils.setPrefString(getApplicationContext(), PreferenceConstants.USER_NAME, name);
+			PreferenceUtils.setPrefString(getApplicationContext(), PreferenceConstants.USER_PSD, password);
+			Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+			startActivity(intent);
+			finish();
 		}
 	}
 

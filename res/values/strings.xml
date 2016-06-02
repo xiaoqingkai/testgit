@@ -8,5 +8,10 @@
     <string name="user_psd">密码</string>
     <string name="phone_text">1234567890</string>
     <string name="title_activity_home">HomeActivity</string>
+    <string name="exchange">交流</string>
+    <string name="plan">计划</string>
+    <string name="mine">我</string>
+    <string name="increase">自荐及提高</string>
+    <string name="title_activity_exchange">ExchangeActivity</string>
 
 </resources>

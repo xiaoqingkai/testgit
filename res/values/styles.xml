@@ -17,5 +17,17 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-
+ <!-- 底部菜单按钮样式 -->
+    <style name="HomeTabButtonStyle">
+        <item name="android:textSize">@dimen/h4</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:drawablePadding">1dp</item>
+    </style>
 </resources>

@@ -4,9 +4,49 @@
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <RadioGroup
+        android:id="@+id/rg_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_tab_exchange"
+            style="@style/HomeTabButtonStyle"
+            android:layout_marginTop="5dp"
+            android:drawableTop="@drawable/email"
+            android:text="@string/exchange" />
+
+        <RadioButton
+            android:id="@+id/rb_tab_plan"
+            style="@style/HomeTabButtonStyle"
+            android:layout_marginTop="5dp"
+            android:drawableTop="@drawable/calendar"
+            android:text="@string/plan" />
+
+        <RadioButton
+            android:id="@+id/rb_tab_increase"
+            style="@style/HomeTabButtonStyle"
+            android:layout_marginTop="5dp"
+            android:drawableTop="@drawable/in"
+            android:text="@string/increase" />
+
+        <RadioButton
+			android:checked="true"
+            android:id="@+id/rb_tab_mine"
+            style="@style/HomeTabButtonStyle"
+            android:layout_marginTop="5dp"
+            android:drawableTop="@drawable/mine"
+            android:text="@string/mine" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/fragment_stub"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/rg_tab_bar" >
+    </FrameLayout>
 
 </RelativeLayout>
