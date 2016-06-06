@@ -101,6 +101,7 @@ public class HomeActivity extends FragmentActivity implements OnCheckedChangeLis
 		return null;
 	}
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	private Class<? extends Fragment> getPrimaryFragmentClass(int fragmentId)
 	{
 		Class clazz = null;
