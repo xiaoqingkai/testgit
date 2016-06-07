@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="11"
         android:targetSdkVersion="21" />
 
     <application
@@ -31,8 +31,16 @@
             android:label="@string/title_activity_home" >
         </activity>
         <activity
-            android:name="com.itjsfy.testapp.ui.Tab_Exchange"
+            android:name=".ui.Tab_Exchange"
             android:label="@string/title_activity_exchange" >
+        </activity>
+        <activity
+            android:name=".ui.AddPlanActivity"
+            android:label="@string/title_activity_add_plan" >
+        </activity>
+        <activity
+            android:name=".AlertPlanActivity"
+            android:label="@string/title_activity_alert_plan" >
         </activity>
     </application>
 
